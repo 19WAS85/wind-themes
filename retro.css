@@ -1,16 +1,16 @@
 * { margin: 0; padding: 0; font-size: 1em; list-style-position: inside; }
 
 body {
-	font-family: 'Trebuchet MS', Verdana, Helvetica, Arial, sans-serif;
-	font-size: 10pt;
+  font-family: 'Trebuchet MS', Verdana, Helvetica, Arial, sans-serif;
+  font-size: 10pt;
 }
 
 a {
-	color: #C34;
+  color: #C34;
 }
 
 a:visited {
-	color: #534;
+  color: #534;
 }
 
 #content {
@@ -27,19 +27,19 @@ header {
 
 header h1 {
   font-size: 32pt;
-	background-color: #C34;
-	padding: 20px 0px 0px 3px;
-	letter-spacing: -3px;
-	font-family: Helvetica, Arial;
+  background-color: #C34;
+  padding: 20px 0px 0px 3px;
+  letter-spacing: -3px;
+  font-family: Helvetica, Arial;
 }
 
 header h1 a {
-	color: #FFF;
-	text-decoration: none;
+  color: #FFF;
+  text-decoration: none;
 }
 
 header h1 a:visited {
-	color: #FFF;
+  color: #FFF;
 }
 
 header h2 {
@@ -56,19 +56,20 @@ header h2 {
 
 article {
   margin-bottom: 40px;
+  color: #444;
 }
 
 article h1 {
-	background-color: #DDD;
-	font-size: 20pt;
-	letter-spacing: -2px;
-	line-height: 0.8em;
+  background-color: #DDD;
+  font-size: 20pt;
+  letter-spacing: -2px;
+  line-height: 0.8em;
   padding: 15px 0px 7px 3px;
-	font-family: Helvetica, Arial;
+  font-family: Helvetica, Arial;
 }
 
 article h1 a {
-	text-decoration: none;
+  text-decoration: none;
 }
 
 article section {
@@ -86,10 +87,15 @@ article h3, article h4, article h5, article h6 {
 }
 
 article time {
-  color: #555;
-  font-size: 8pt;
-  font-style: italic;
+  color: white;
+  display: block;
+  font-family: Helvetica, Arial;
+  font-size: 12pt;
+  font-weight: bold;
+  margin: -20px 4px 0px 0px;
   padding-left: 3px;
+  text-align: right;
+  font-style: italic;
 }
 
 article p, article pre, article ul, article blockquote {
@@ -101,16 +107,16 @@ article ul, article pre, article blockquote {
 }
 
 article pre, article blockquote {
-	border-left: 2px solid #DDD;
-	padding: 3px 0px 3px 5px;
+  border-left: 2px solid #DDD;
+  padding: 3px 0px 3px 5px;
 }
 
 article pre {
-	font-family: Consolas, Monaco, "Courier New", Courier, monospace;
+  font-family: Consolas, Monaco, "Courier New", Courier, monospace;
 }
 
 article section.text {
-	margin-left: 10px;
+  margin-left: 10px;
 }
 
 aside {
@@ -119,17 +125,17 @@ aside {
 }
 
 aside section {
-  margin: 20px 0;
+  margin: 0px 0px 40px 0px;
 }
 
 aside section h1 {
-	background-color: #DDD;
-	color: #555;
-	font-family: Helvetica, Arial;
-	font-size: 14pt;
-	letter-spacing: -1px;
-	line-height: 0.8em;
-	margin-bottom: 15px;
+  background-color: #EEE;
+  color: #777;
+  font-family: Helvetica, Arial;
+  font-size: 14pt;
+  letter-spacing: -1px;
+  line-height: 0.8em;
+  margin-bottom: 15px;
   padding: 15px 0px 5px 3px;
 }
 
@@ -193,8 +199,8 @@ button {
 a.edit {
   margin-left: 10px;
   font-size: 10pt;
-	letter-spacing: normal;
-	color: #353;
+  letter-spacing: normal;
+  color: #A80;
 }
 
 footer {
