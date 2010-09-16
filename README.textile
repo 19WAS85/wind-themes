@@ -1,0 +1,3 @@
+h1. How to install?
+
+Just put the file of chosen theme on @public/custom@ Wind directory and rename to @style.css@.
