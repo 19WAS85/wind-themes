@@ -6,7 +6,7 @@ body {
 }
 
 a {
-  color: #C34;
+  color: #C30301;
 }
 
 a:visited {
@@ -27,10 +27,11 @@ header {
 
 header h1 {
   font-size: 32pt;
-  background-color: #C34;
-  padding: 20px 0px 0px 3px;
+  background-color: #C30301;
+  padding: 20px 0px 1px 3px;
   letter-spacing: -3px;
   font-family: Helvetica, Arial;
+  text-shadow: #333 1px 1px 1px;
 }
 
 header h1 a {
@@ -66,6 +67,7 @@ article h1 {
   line-height: 0.8em;
   padding: 15px 0px 7px 3px;
   font-family: Helvetica, Arial;
+  text-shadow: #333 1px 1px 1px;
 }
 
 article h1 a {
@@ -92,10 +94,11 @@ article time {
   font-family: Helvetica, Arial;
   font-size: 12pt;
   font-weight: bold;
-  margin: -20px 4px 0px 0px;
+  margin: -20px 5px 0px 0px;
   padding-left: 3px;
   text-align: right;
   font-style: italic;
+  text-shadow: #AAA 1px 1px 1px;
 }
 
 article p, article pre, article ul, article blockquote {
@@ -130,13 +133,14 @@ aside section {
 
 aside section h1 {
   background-color: #EEE;
-  color: #777;
+  color: #AAA;
   font-family: Helvetica, Arial;
   font-size: 14pt;
   letter-spacing: -1px;
   line-height: 0.8em;
   margin-bottom: 15px;
   padding: 15px 0px 5px 3px;
+  text-shadow: #333 1px 1px 1px;
 }
 
 aside ul {
