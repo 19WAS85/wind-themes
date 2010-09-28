@@ -67,7 +67,7 @@ article h1 {
   line-height: 0.8em;
   padding: 15px 0px 7px 3px;
   font-family: Helvetica, Arial;
-  text-shadow: #333 1px 1px 1px;
+  text-shadow: #333 1px 1px 0px;
 }
 
 article h1 a {
@@ -133,14 +133,14 @@ aside section {
 
 aside section h1 {
   background-color: #EEE;
-  color: #AAA;
+  color: #CCC;
   font-family: Helvetica, Arial;
   font-size: 14pt;
   letter-spacing: -1px;
   line-height: 0.8em;
   margin-bottom: 15px;
   padding: 15px 0px 5px 3px;
-  text-shadow: #333 1px 1px 1px;
+  text-shadow: #555 1px 1px 0px;
 }
 
 aside ul {
