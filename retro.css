@@ -150,7 +150,15 @@ aside section h1 {
   text-shadow: #555 1px 1px 0px;
 }
 
-aside ul {
+aside #search {
+  margin: 0px 0px 10px 0;
+}
+
+aside #search input {
+  width: 100%;
+}
+
+ul {
   margin-left: 10px;
 }
 
